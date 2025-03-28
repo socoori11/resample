@@ -2,21 +2,21 @@
   {
     "id": 1,
     "title": "나무1",
-    "url": "./image/image1.jpg"
+    "url": "image/image1.jpg"
   },
   {
     "id": 2,
     "title": "나무2",
-    "url": "./image/image2.jpg"
+    "url": "image/image2.jpg"
   },
   {
     "id": 3,
     "title": "나무3",
-    "url": "./image/image3.jpg"
+    "url": "image/image3.jpg"
   },
     {
     "id": 4,
     "title": "나무4",
-    "url": "./image/image4.jpg"
+    "url": "image/image4.jpg"
   }
 ]
