@@ -1,0 +1,72 @@
+/* src/pages/contact.css */
+
+.contact-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.slider-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* contact.css */
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background: rgba(225, 255, 225, 0.3);
+  padding: 10px 0;
+  position: relative;
+}
+
+.marquee p {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-loop 10s linear infinite;
+  font-size: 10rem;
+  font-weight: bold;
+  color:darkgreen;
+}
+
+/* ✅ 텍스트 두 번 반복해서 끊김 없이 이어붙이기 */
+.marquee p::after {
+  content: ' HELLO HAPPYDAY '; /* 공백 포함해 자연스럽게 */
+}
+
+/* ✅ 연속적인 흐름을 위한 애니메이션 */
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
