@@ -2,21 +2,21 @@
   {
     "id": 1,
     "title": "나무1",
-    "url": "${process.env.PUBLIC_URL}/image/image1.JPG"
+    "url": "/image/image1.JPG"
   },
   {
     "id": 2,
     "title": "나무2",
-    "url": "${process.env.PUBLIC_URL}/image/image2.JPG"
+    "url": "/image/image2.JPG"
   },
   {
     "id": 3,
     "title": "나무3",
-    "url": "${process.env.PUBLIC_URL}/image/image3.JPG"
+    "url": "/image/image3.JPG"
   },
     {
     "id": 4,
     "title": "나무4",
-    "url": "${process.env.PUBLIC_URL}/image/image4.JPG"
+    "url": "/image/image4.JPG"
   }
 ]
